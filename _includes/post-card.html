@@ -1,0 +1,20 @@
+<div class="bg-white border-t-4 border-[#d5ae65] flex flex-col justify-between shadow-sm p-5 hover:shadow-md transition-shadow">
+  <div>
+    <h3 class="font-serif text-[19px] leading-tight mb-2">
+      <a href="{{ post.url | relative_url }}" class="text-[#23396c] hover:text-[#d5ae65] hover:underline">
+        {{ post.title }}
+      </a>
+    </h3>
+    <p class="text-xs text-gray-500 mb-3">
+      {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+    <p class="text-sm text-[#424242] line-clamp-3 mb-6">
+      {{ post.excerpt | default: post.content | strip_html | truncatewords: 20 }}
+    </p>
+  </div>
+  <div>
+    <a href="{{ post.url | relative_url }}" class="card-read-more-btn">
+      Read More
+    </a>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+main:
+- title: Home
+  url: /
+- title: Strategy
+  url: /strategy/
+  sub:
+  - title: Investment Due Diligence
+    url: /strategy/investment-due-diligence/
+  - title: Business Audit
+    url: /strategy/business-audit/
+- title: M & A
+  url: /mergers-acquisitions/
+  sub:
+  - title: Interim Management
+    url: /interim-management/
+- title: Approach
+  url: /approach/
+- title: Tools
+  url: /tools/
+  sub:
+  - title: Simple Valuation Model
+    url: /tools/simple-valuation-model/
+- title: About
+  url: /about/
+  sub:
+  - title: Our Team
+    url: /about/our-team/
+  - title: Contact Us
+    url: /about/contact-us/
+footer_col1:
+- title: Strategy
+  url: /strategy/
+- title: Investment Due Diligence
+  url: /strategy/investment-due-diligence/
+- title: Business Audit
+  url: /strategy/business-audit/
+footer_col2:
+- title: Mergers & Acquisitions
+  url: /mergers-acquisitions/
+- title: Interim Management
+  url: /interim-management/
+footer_col3:
+- title: Tools & Resources
+  url: /tools/
+- title: Simple Valuation Model
+  url: /tools/simple-valuation-model/
+- title: Approach
+  url: /approach/
+footer_col4:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Our Team
+  url: /about/our-team/
+- title: Contact Us
+  url: /about/contact-us/

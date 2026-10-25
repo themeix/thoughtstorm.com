@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  {% include head.html %}
+</head>
+<body class="bg-gradient-to-b from-[#344263] to-[#576480] min-h-screen text-[#424242] font-sans antialiased py-0 sm:py-8">
+  
+  <!-- Centered boxed site container matching WordPress Beaver Builder layout -->
+  <div class="max-w-[1300px] mx-auto bg-white shadow-2xl min-h-screen flex flex-col justify-between">
+    
+    <!-- Site Header -->
+    {% include header.html %}
+
+    <!-- Main Page Content -->
+    <main id="main-content" class="flex-grow">
+      {{ content }}
+    </main>
+
+    <!-- Site Footer -->
+    {% include footer.html %}
+
+  </div>
+
+</body>
+</html>

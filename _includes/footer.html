@@ -1,0 +1,100 @@
+<footer class="mt-12 bg-white" aria-label="Site Footer">
+  <!-- 4 Recent Posts Grid -->
+  <div class="border-t border-gray-200 py-10 bg-[#f9fafb]">
+    <div class="max-w-[1300px] mx-auto px-4 sm:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {% for post in site.posts limit:4 %}
+          {% include post-card.html post=post %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Gold Contact Bar with Starburst Background -->
+  <div class="contact-starburst-bg py-8 text-white">
+    <div class="max-w-[1300px] mx-auto px-4 sm:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div>
+        <h4 class="font-sans text-xl uppercase tracking-wider font-bold">Contact Rick Colosimo</h4>
+      </div>
+      <div class="text-sm sm:text-base space-y-1">
+        <p><a href="mailto:rick@thoughtstorm.com" class="underline hover:text-[#23396c] font-medium">rick@thoughtstorm.com</a></p>
+        <p>646.701.1080</p>
+        <p>P.O. Box 508, Ridgewood, NJ 07451</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4-Column Directory Nav Bar -->
+  <div class="bg-[#344263] text-white py-10 font-sans">
+    <div class="max-w-[1300px] mx-auto px-4 sm:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Col 1 -->
+      <div>
+        <h4 class="text-sm font-semibold uppercase tracking-widest text-[#d5ae65] pb-2 mb-3 border-b border-[#576480]">Strategy</h4>
+        <ul class="space-y-2 text-sm text-gray-200">
+          {% for link in site.data.navigation.footer_col1 %}
+            <li>
+              <a href="{{ link.url | relative_url }}" class="hover:text-[#d5ae65] transition-colors">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Col 2 -->
+      <div>
+        <h4 class="text-sm font-semibold uppercase tracking-widest text-[#d5ae65] pb-2 mb-3 border-b border-[#576480]">M &amp; A</h4>
+        <ul class="space-y-2 text-sm text-gray-200">
+          {% for link in site.data.navigation.footer_col2 %}
+            <li>
+              <a href="{{ link.url | relative_url }}" class="hover:text-[#d5ae65] transition-colors">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Col 3 -->
+      <div>
+        <h4 class="text-sm font-semibold uppercase tracking-widest text-[#d5ae65] pb-2 mb-3 border-b border-[#576480]">Tools &amp; Resources</h4>
+        <ul class="space-y-2 text-sm text-gray-200">
+          {% for link in site.data.navigation.footer_col3 %}
+            <li>
+              <a href="{{ link.url | relative_url }}" class="hover:text-[#d5ae65] transition-colors">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Col 4 -->
+      <div>
+        <h4 class="text-sm font-semibold uppercase tracking-widest text-[#d5ae65] pb-2 mb-3 border-b border-[#576480]">ThoughtStorm</h4>
+        <ul class="space-y-2 text-sm text-gray-200">
+          {% for link in site.data.navigation.footer_col4 %}
+            <li>
+              <a href="{{ link.url | relative_url }}" class="hover:text-[#d5ae65] transition-colors">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright Bar -->
+  <div class="bg-[#29385b] py-4 text-xs uppercase tracking-wider text-gray-300 font-sans border-t border-[#344263]">
+    <div class="max-w-[1300px] mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div class="flex items-center space-x-2">
+        <span>Site Design: <a href="http://brightbirdcreative.com/" target="_blank" rel="noopener noreferrer" class="hover:text-[#d5ae65] underline">Bright Bird Creative</a></span>
+        <img src="{{ '/assets/uploads/2018/08/icon-21x16-bbc-white.png' | relative_url }}" alt="" width="21" height="16" class="inline-block" />
+      </div>
+      <div>
+        <span>© 2008 - 2026 Rick Colosimo. All Rights Reserved.</span>
+      </div>
+    </div>
+  </div>
+</footer>

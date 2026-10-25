@@ -1,0 +1,275 @@
+- id: 124
+  count: 1
+  description: ''
+  link: https://www.thoughtstorm.com/category/case-studies/
+  name: case studies
+  slug: case-studies
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/124
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=124
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 77
+  count: 0
+  description: ''
+  link: https://www.thoughtstorm.com/category/client-corner/
+  name: Client Corner
+  slug: client-corner
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/77
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=77
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 25
+  count: 0
+  description: ''
+  link: https://www.thoughtstorm.com/category/five-minute-lawyer/
+  name: Five-minute lawyer
+  slug: five-minute-lawyer
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/25
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=25
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 30
+  count: 0
+  description: ''
+  link: https://www.thoughtstorm.com/category/mentor/
+  name: Mentor
+  slug: mentor
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/30
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=30
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 78
+  count: 0
+  description: ''
+  link: https://www.thoughtstorm.com/category/nonprofit/
+  name: nonprofit
+  slug: nonprofit
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/78
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=78
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 67
+  count: 0
+  description: ''
+  link: https://www.thoughtstorm.com/category/orphan-ideas/
+  name: orphan ideas
+  slug: orphan-ideas
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/67
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=67
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 125
+  count: 1
+  description: ''
+  link: https://www.thoughtstorm.com/category/quotes/
+  name: quotes
+  slug: quotes
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/125
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=125
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 59
+  count: 0
+  description: ''
+  link: https://www.thoughtstorm.com/category/reviews/
+  name: Reviews
+  slug: reviews
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/59
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=59
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 31
+  count: 0
+  description: ''
+  link: https://www.thoughtstorm.com/category/soapbox-2/
+  name: Soapbox
+  slug: soapbox-2
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/31
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=31
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 126
+  count: 0
+  description: ''
+  link: https://www.thoughtstorm.com/category/software-bounty/
+  name: software bounty
+  slug: software-bounty
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/126
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=126
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true
+- id: 1
+  count: 100
+  description: ''
+  link: https://www.thoughtstorm.com/category/uncategorized/
+  name: Uncategorized
+  slug: uncategorized
+  taxonomy: category
+  parent: 0
+  meta: []
+  _links:
+    self:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories/1
+      targetHints:
+        allow:
+        - GET
+    collection:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/categories
+    about:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/taxonomies/category
+    wp:post_type:
+    - href: https://www.thoughtstorm.com/wp-json/wp/v2/posts?categories=1
+    curies:
+    - name: wp
+      href: https://api.w.org/{rel}
+      templated: true

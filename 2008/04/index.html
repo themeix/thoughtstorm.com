@@ -1,0 +1,42 @@
+---
+layout: default
+title: "Archive: April 2008"
+permalink: /2008/04/
+---
+<div class="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="flex flex-col lg:flex-row gap-12">
+    <div class="w-full lg:w-[78%] lg:pr-12 lg:border-r lg:border-dotted lg:border-[#bbbbbb]">
+      <header class="mb-10 pb-4 border-b border-dotted border-[#bbbbbb]">
+        <h1 class="font-serif font-normal text-3xl sm:text-4xl text-[#29385b] leading-tight">
+          Archive: April 2008
+        </h1>
+      </header>
+
+      <div class="space-y-12">
+        {% for post in site.posts %}
+          {% capture post_ym %}{{ post.date | date: "%Y/%m" }}{% endcapture %}
+          {% if post_ym == "2008/04" %}
+            <article class="pb-10 border-b border-dotted border-[#bbbbbb]">
+              <h2 class="font-serif text-2xl sm:text-3xl text-[#29385b] hover:text-[#d5ae65] leading-snug mb-2">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h2>
+              <div class="text-xs text-gray-500 mb-4 font-sans">
+                {{ post.date | date: "%B %-d, %Y" }}
+              </div>
+              <div class="text-base text-[#424242] leading-relaxed mb-4 font-sans">
+                {{ post.excerpt | default: post.content | strip_html | truncatewords: 40 }}
+              </div>
+              <a href="{{ post.url | relative_url }}" class="post-read-more-link" aria-label="Read more about {{ post.title }}">
+                Read More
+              </a>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="w-full lg:w-[22%]">
+      {% include sidebar.html %}
+    </div>
+  </div>
+</div>

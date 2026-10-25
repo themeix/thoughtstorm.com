@@ -1,0 +1,45 @@
+title: ThoughtStorm Strategic Capital
+email: rick@thoughtstorm.com
+description: ThoughtStorm Strategic Capital is a boutique advisory firm focused on increasing returns on invested capital for our clients.
+url: "https://thoughtstorm.com"
+baseurl: ""
+future: true
+
+permalink: /:title/
+paginate: 4
+paginate_path: "/page/:num/"
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - fetch_wp_data.py
+  - download_assets.py
+  - migrate_content.py
+  - _wp_data
+  - README.md

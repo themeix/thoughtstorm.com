@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div class="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="flex flex-col lg:flex-row gap-12">
+    
+    <!-- Main Content Column -->
+    <div class="w-full lg:w-[78%] lg:pr-12 lg:border-r lg:border-dotted lg:border-[#bbbbbb]">
+      <header class="mb-10 pb-4 border-b border-dotted border-[#bbbbbb]">
+        <h1 class="font-serif font-normal text-3xl sm:text-4xl text-[#29385b] leading-tight">
+          {{ page.title }}
+        </h1>
+        {% if page.description %}
+          <p class="text-gray-600 mt-2 text-base font-sans">{{ page.description }}</p>
+        {% endif %}
+      </header>
+
+      <div class="space-y-12">
+        {% assign filtered_posts = site.posts %}
+        {% if page.category %}
+          {% assign filtered_posts = site.categories[page.category] %}
+        {% elsif page.tag %}
+          {% assign filtered_posts = site.tags[page.tag] %}
+        {% endif %}
+
+        {% for post in filtered_posts %}
+          <article class="pb-10 border-b border-dotted border-[#bbbbbb]">
+            <h2 class="font-serif text-2xl sm:text-3xl text-[#29385b] hover:text-[#d5ae65] leading-snug mb-2">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            <div class="text-xs text-gray-500 mb-4 font-sans">
+              {{ post.date | date: "%B %-d, %Y" }}
+            </div>
+            <div class="text-base text-[#424242] leading-relaxed mb-4 font-sans">
+              {{ post.excerpt | default: post.content | strip_html | truncatewords: 40 }}
+            </div>
+            <a href="{{ post.url | relative_url }}" class="post-read-more-link" aria-label="Read more about {{ post.title }}">
+              Read More
+            </a>
+          </article>
+        {% else %}
+          <p class="text-gray-500 font-sans">No posts found in this archive.</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Sidebar Column -->
+    <div class="w-full lg:w-[22%]">
+      {% include sidebar.html %}
+    </div>
+
+  </div>
+</div>
