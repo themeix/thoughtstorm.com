@@ -21,6 +21,14 @@ layout: default
           {% assign filtered_posts = site.categories[page.category] %}
         {% elsif page.tag %}
           {% assign filtered_posts = site.tags[page.tag] %}
+        {% elsif page.year_month %}
+          {% assign filtered_posts = "" | split: "" %}
+          {% for post in site.posts %}
+            {% capture post_ym %}{{ post.date | date: "%Y/%m" }}{% endcapture %}
+            {% if post_ym == page.year_month %}
+              {% assign filtered_posts = filtered_posts | push: post %}
+            {% endif %}
+          {% endfor %}
         {% endif %}
 
         {% for post in filtered_posts %}
