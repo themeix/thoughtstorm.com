@@ -2,3 +2,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://thoughtstorm.com/sitemap.xml
+
+# LLMs & AI Search Engine Optimization (GEO/AEO)
+# Specification: https://llmstxt.org/
+LLM-Context: https://thoughtstorm.com/llms.txt
+LLM-Full-Context: https://thoughtstorm.com/llms-full.txt

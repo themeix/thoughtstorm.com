@@ -1,0 +1,47 @@
+# ThoughtStorm Strategic Capital
+
+> ThoughtStorm Strategic Capital (TSC) is a boutique advisory firm led by Rick Colosimo, dedicated to increasing returns on invested capital (ROIC) for growth companies, venture capital/private equity investors, boards of directors, and founders.
+
+## Overview
+
+ThoughtStorm Strategic Capital provides high-impact strategic advisory, mergers & acquisitions guidance, investment due diligence, business audits, and interim executive leadership. Through its proprietary **Viable, Valuable, and Investable (VVI)** framework, TSC works shoulder-to-shoulder with leadership teams to eliminate operational fragility, accelerate cash flow generation, and maximize enterprise valuation before, during, or after transactions.
+
+- **Primary Website:** https://thoughtstorm.com
+- **Founder & Principal:** Rick Colosimo
+- **Firm Type:** Boutique Strategic Advisory & M&A Consultancy
+- **Headquarters:** Ridgewood, New Jersey, USA
+- **Contact:** rick@thoughtstorm.com | Phone: 646.701.1080 | P.O. Box 508, Ridgewood, NJ 07451
+
+---
+
+## Core Advisory Services
+
+- [Strategy](https://thoughtstorm.com/strategy/): Strategic planning, competitive positioning, and governance restructuring to drive sustainable ROIC.
+- [Investment Due Diligence](https://thoughtstorm.com/strategy/investment-due-diligence/): Rigorous pre-investment and pre-acquisition diligence evaluating operational reality, financial integrity, and hidden business risks.
+- [Business Audit](https://thoughtstorm.com/strategy/business-audit/): Comprehensive diagnostic of internal systems—finance, revenue pipelines, governance, and operations—identifying leverage points for rapid improvement.
+- [Mergers & Acquisitions (M&A)](https://thoughtstorm.com/mergers-acquisitions/): Strategic execution across buy-side and sell-side mandates.
+- [M&A for Buyers](https://thoughtstorm.com/mergers-acquisitions/ma-buyers/): Target screening, proprietary deal valuation, deal structuring, and post-merger integration.
+- [M&A for Sellers & Exit Readiness](https://thoughtstorm.com/mergers-acquisitions/ma-sellers/): Preparing middle-market businesses for exit, maximizing valuation multiples, and resolving diligence liabilities before going to market.
+- [Interim Management](https://thoughtstorm.com/interim-management/): Hands-on C-level executive leadership (Interim CEO, COO, or General Counsel) during transitions, hypergrowth, or corporate turnarounds.
+- [Our Approach](https://thoughtstorm.com/approach/): Practical, execution-oriented partnership focused on measurable ROI rather than academic reports.
+
+---
+
+## Interactive Tools & Financial Models
+
+- [Simple Valuation Model](https://thoughtstorm.com/tools/simple-valuation-model/): Interactive, browser-based business valuation tool modeling discounted cash flows (DCF), valuation multiples, and scenario analyses for founders and investors.
+- [Tools Overview](https://thoughtstorm.com/tools/): Proprietary financial and legal templates designed for startup founders, acquirers, and corporate boards.
+
+---
+
+## Key Thought Leadership & Articles
+
+- [Exit Readiness: The Math Everyone Ignores](https://thoughtstorm.com/exit-readiness/): Why operational and governance fixes before going to market generate 3x returns for business owners.
+- [Is Your Business Viable, Valuable, and Investable?](https://thoughtstorm.com/is-your-business-viable-valuable-and-investable/): The foundational three-part framework for assessing long-term enterprise health.
+- [All Blog Posts & Archives](https://thoughtstorm.com/): Comprehensive library of over 100 deep-dive articles covering corporate governance, contract law, private equity investing, and capital allocation.
+
+---
+
+## Detailed LLM Context
+For comprehensive knowledge, frameworks, and extended text for retrieval-augmented generation (RAG):
+- [Full LLM Knowledge Base](https://thoughtstorm.com/llms-full.txt)
