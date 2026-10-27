@@ -66,13 +66,14 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 14px 20px;
+  padding: 14px 18px;
   background-color: #23396c;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
   transition: background-color 0.15s ease-in-out;
 }
 .sidebar-all-posts-btn:hover {

@@ -2,10 +2,10 @@
 layout: default
 ---
 <div class="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
-  <div class="flex flex-col lg:flex-row gap-12">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
     
-    <!-- Main Blog Feed Column (78% width with dotted right border) -->
-    <div class="w-full lg:w-[78%] lg:pr-12 lg:border-r lg:border-dotted lg:border-[#bbbbbb]">
+    <!-- Main Blog Feed Column (9 of 12 columns = 75% width) -->
+    <div class="lg:col-span-9 lg:pr-8 lg:border-r lg:border-dotted lg:border-[#bbbbbb] min-w-0">
       <div class="space-y-16">
         {% for post in paginator.posts %}
           <article class="pb-10 border-b border-dotted border-[#bbbbbb]">
@@ -42,8 +42,8 @@ layout: default
       {% include pagination.html %}
     </div>
 
-    <!-- Sidebar Column (22% width) -->
-    <div class="w-full lg:w-[22%]">
+    <!-- Sidebar Column (3 of 12 columns = 25% width) -->
+    <div class="lg:col-span-3 min-w-0">
       {% include sidebar.html %}
     </div>
 

@@ -2,10 +2,10 @@
 layout: default
 ---
 <div class="max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-8 py-10">
-  <div class="flex flex-col lg:flex-row gap-12">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
     
-    <!-- Main Content Column (78% width with dotted border) -->
-    <div class="w-full lg:w-[78%] lg:pr-12 lg:border-r lg:border-dotted lg:border-[#bbbbbb]">
+    <!-- Main Content Column (9 of 12 columns = 75% width) -->
+    <div class="lg:col-span-9 lg:pr-8 lg:border-r lg:border-dotted lg:border-[#bbbbbb] min-w-0">
       <article class="prose-custom">
         <h1 class="font-serif font-normal text-3xl sm:text-4xl lg:text-[40px] text-[#29385b] leading-tight mb-8">
           {{ page.title }}
@@ -17,8 +17,8 @@ layout: default
       </article>
     </div>
 
-    <!-- Sidebar Column (22% width) -->
-    <div class="w-full lg:w-[22%]">
+    <!-- Sidebar Column (3 of 12 columns = 25% width) -->
+    <div class="lg:col-span-3 min-w-0">
       {% include sidebar.html %}
     </div>
 
