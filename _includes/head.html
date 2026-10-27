@@ -23,7 +23,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
 <!-- Tailwind CSS Main Output -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 <!-- Feed -->
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} » Feed" href="{{ '/feed.xml' | absolute_url }}">

@@ -66,13 +66,13 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 14px 18px;
+  padding: 18px 24px;
   background-color: #23396c;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   white-space: nowrap;
   transition: background-color 0.15s ease-in-out;
 }
@@ -83,12 +83,13 @@
 
 /* Sidebar widget list bullet */
 .sidebar-list li {
-  padding: 8px 0 10px;
+  padding: 6px 0 10px;
   border-bottom: 1px dotted #bbbbbb;
   font-size: 14px;
 }
 .sidebar-list li:last-child {
   border-bottom: 0 none;
+  margin-bottom: 0;
 }
 .sidebar-list li::before {
   content: "►";
@@ -106,7 +107,7 @@
   background-size: contain;
 }
 
-/* Content typography */
+/* Content typography matching thoughtstorm.com */
 .prose-custom p {
   margin-bottom: 1.5rem;
   font-size: 18px;
@@ -114,26 +115,34 @@
   color: #424242;
 }
 .prose-custom h1 {
-  font-size: 38px;
-  line-height: 1.3;
+  font-size: 42px;
+  line-height: 1.4;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-weight: 400;
   color: #29385b;
 }
 .prose-custom h2 {
-  font-size: 28px;
-  line-height: 1.3;
-  margin-top: 2rem;
+  font-size: 30px;
+  line-height: 1.4;
+  margin-top: 2.25rem;
   margin-bottom: 1rem;
   font-weight: 400;
   color: #29385b;
 }
 .prose-custom h3 {
-  font-size: 22px;
-  line-height: 1.3;
+  font-size: 24px;
+  line-height: 1.4;
   margin-top: 1.75rem;
   margin-bottom: 0.75rem;
+  font-weight: 400;
+  color: #29385b;
+}
+.prose-custom h4 {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
   font-weight: 400;
   color: #29385b;
 }
@@ -148,8 +157,16 @@
   margin-bottom: 1.5rem;
 }
 .prose-custom li {
-  margin-bottom: 0.5rem;
+  margin-left: 15px;
+  margin-bottom: 20px;
   line-height: 1.6;
+  font-size: 18px;
+}
+.prose-custom hr {
+  border: none;
+  border-bottom: 1px dotted #bbbbbb;
+  margin-top: 50px;
+  margin-bottom: 52px;
 }
 .prose-custom a {
   color: #23396c;

@@ -1,19 +1,19 @@
 <nav class="font-sans" aria-label="Main Navigation">
   <!-- Desktop Nav -->
-  <ul class="hidden md:flex items-center justify-end text-[13px] tracking-wide font-normal uppercase text-[#424242]">
+  <ul id="menu-main-navbar" class="hidden md:flex items-center justify-end text-[14px] uppercase font-normal text-[#444b4c]">
     {% for item in site.data.navigation.main %}
-      <li class="relative group border-l border-dotted border-[#bbbbbb] first:border-l-0">
-        <a href="{{ item.url | relative_url }}" class="block px-4 py-3 hover:bg-[#d5ae65] hover:text-white transition-colors duration-150">
-          {{ item.title }}
+      <li class="relative group border-l border-dotted border-[#bbbbbb] last:border-r">
+        <a href="{{ item.url | relative_url }}" class="flex items-center px-5 lg:px-7 py-[13px] text-[14px] uppercase font-normal text-[#444b4c] hover:bg-[#d5ae65] hover:text-white transition-colors duration-150 leading-[22px]">
+          <span>{{ item.title }}</span>
           {% if item.sub %}
-            <span class="inline-block text-[10px] ml-1 opacity-70">▼</span>
+            <span class="inline-block w-[6px] h-[6px] ml-2.5 border-r-[1.5px] border-b-[1.5px] border-current transform rotate-45 -translate-y-[2px] group-hover:-rotate-135 transition-transform duration-150"></span>
           {% endif %}
         </a>
         {% if item.sub %}
-          <ul class="absolute left-0 top-full hidden group-hover:block bg-white shadow-lg border border-gray-100 min-w-[240px] z-50 py-2">
+          <ul class="absolute left-0 top-full hidden group-hover:block bg-white shadow-[0_1px_20px_rgba(0,0,0,0.1)] min-w-[260px] z-50 p-5 space-y-2.5">
             {% for subitem in item.sub %}
               <li>
-                <a href="{{ subitem.url | relative_url }}" class="block px-4 py-2 text-[13px] normal-case text-[#424242] border-l-[12px] border-[#f1f1f1] hover:border-[#d5ae65] hover:bg-[#d5ae65] hover:text-white transition-colors">
+                <a href="{{ subitem.url | relative_url }}" class="block px-4 py-2 text-[14px] normal-case font-normal text-[#444b4c] border-l-[12px] border-[#f1f1f1] hover:border-[#d5ae65] hover:bg-[#d5ae65] hover:text-white transition-colors">
                   {{ subitem.title }}
                 </a>
               </li>
@@ -25,7 +25,7 @@
   </ul>
 
   <!-- Mobile Toggle Button -->
-  <div class="md:hidden flex justify-end">
+  <div class="md:hidden flex justify-end py-2">
     <button id="mobile-menu-toggle" type="button" class="p-2 text-[#23396c] hover:text-[#d5ae65] focus:outline-none" aria-label="Toggle navigation" aria-expanded="false">
       <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -38,7 +38,7 @@
     <ul class="flex flex-col space-y-1 text-sm uppercase">
       {% for item in site.data.navigation.main %}
         <li>
-          <a href="{{ item.url | relative_url }}" class="block px-3 py-2 text-[#424242] hover:bg-[#d5ae65] hover:text-white font-medium">
+          <a href="{{ item.url | relative_url }}" class="block px-3 py-2 text-[#444b4c] hover:bg-[#d5ae65] hover:text-white font-medium">
             {{ item.title }}
           </a>
           {% if item.sub %}
